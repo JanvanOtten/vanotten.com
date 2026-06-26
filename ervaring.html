@@ -277,6 +277,15 @@
   }
 
 </style>
+<!-- modern-banner-bg -->
+<style>
+  .page-banner{position:relative;padding:7.5rem 2rem 3.5rem;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#f0f7ff 0%,#e8f5f3 100%);}
+  .page-banner .section-label{color:var(--teal);}
+  .page-banner h1{font-size:2.6rem;font-weight:800;color:var(--dark);margin:.25rem 0 .75rem;line-height:1.15;}
+  .page-banner p{font-size:1.05rem;color:var(--gray);max-width:600px;line-height:1.7;}
+  body::after{content:"";position:fixed;left:0;right:0;bottom:0;height:min(190px,24vh);background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDE0NDAgMjQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCB4PSIxMi42IiB5PSIxMzAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTEwIiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iNzIuNiIgeT0iMTAwLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE0MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEzMi42IiB5PSIxNDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iOTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxOTIuNiIgeT0iNzUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTY1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMjUyLjYiIHk9IjEyMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMjAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIzMTIuNiIgeT0iNTUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTg1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMzcyLjYiIHk9IjE0MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMDAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI0MzIuNiIgeT0iOTAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTUwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNDkyLjYiIHk9IjExMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMzAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI1NTIuNiIgeT0iNDAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMjAwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNjEyLjYiIHk9IjEyNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI2NzIuNiIgeT0iODAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTYwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNzMyLjYiIHk9IjE1MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSI5MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9Ijc5Mi42IiB5PSI2NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI4NTIuNiIgeT0iMTE1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEyNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjkxMi42IiB5PSI0NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxOTUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI5NzIuNiIgeT0iMTM1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEwNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEwMzIuNiIgeT0iODUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTU1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMTA5Mi42IiB5PSIxMDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTM1IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTE1Mi42IiB5PSIzNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIyMDUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSIxMjEyLjYiIHk9IjEyMi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTgiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxMjcyLjYiIHk9IjcyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE2OCIgcng9IjMiIGZpbGw9IiMwMGE4OTYiIGZpbGwtb3BhY2l0eT0iMC4xMiIvPjxyZWN0IHg9IjEzMzIuNiIgeT0iMTQyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9Ijk4IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTM5Mi42IiB5PSI2Mi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzgiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48bGluZSB4MT0iMCIgeTE9IjkwIiB4Mj0iMTQ0MCIgeTI9IjkwIiBzdHJva2U9IiMwMGE4OTYiIHN0cm9rZS1vcGFjaXR5PSIwLjYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTEgNyIvPjwvc3ZnPg==") center bottom / 100% 100% no-repeat;pointer-events:none;z-index:0;}
+  @media(max-width:600px){.page-banner{padding:6rem 1rem 2.5rem;}.page-banner h1{font-size:1.7rem;}body::after{height:110px;}}
+</style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y933B6Y0VJ"></script>
 <script>
@@ -308,13 +317,20 @@
 </div></div>
 <section id="experience">
   <div class="container">
-    <p class="section-label">Loopbaan</p>
-    <h2 class="section-title">Werkervaring</h2>
     <p class="section-desc">Recente opdrachten als zelfstandig BI/Data specialist bij overheid en bedrijfsleven.</p>
     <div class="experience-layout">
       <div class="timeline">
 
         <div class="timeline-item active">
+          <div class="timeline-dot"><img src="https://logo.clearbit.com/mediq.com" alt="Mediq" style="width:40px;height:40px;object-fit:contain;border-radius:10px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=mediq.com&sz=64';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1NiIgdmlld0JveD0iMCAwIDU2IDU2Ij48cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxMiIgZmlsbD0iIzBhOGE3ZCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTQlIiBkeT0iLjM1ZW0iIGZvbnQtZmFtaWx5PSJJbnRlcixBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iODAwIiBmb250LXNpemU9IjEzIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5NZWRpcTwvdGV4dD48L3N2Zz4='}"></div>
+          <div class="timeline-body">
+            <div class="timeline-period">apr 2026 – heden</div>
+            <div class="timeline-title">BI / Data Analytics Specialist</div>
+            <div class="timeline-company">Mediq</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
           <div class="timeline-dot"><img src="https://logo.clearbit.com/rotterdam.nl" alt="Gemeente Rotterdam" style="width:40px;height:40px;object-fit:contain;border-radius:10px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=rotterdam.nl&sz=64';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIxMCIgZmlsbD0iIzAwODExRiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkeT0iLjM1ZW0iIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjayxBcmlhbCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSI2IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5HZW1lZW50ZTwvdGV4dD48L3N2Zz4='}"></div>
           <div class="timeline-body">
             <div class="timeline-period">mrt 2024 – mrt 2025</div>
@@ -361,29 +377,33 @@
 
       </div>
       <div>
-        <div class="exp-detail">
+        <div class="exp-detail" style="border-color:var(--teal);">
           <div class="exp-detail-header">
             <div class="exp-detail-header-top">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" style="display:inline-block;vertical-align:middle;flex-shrink:0;"><rect width="48" height="48" rx="10" fill="#00811F"/><text x="50%" y="50%" dy=".35em" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="6" fill="#fff" text-anchor="middle">ROTTERDAM</text></svg>
+              <img src="https://logo.clearbit.com/mediq.com" alt="Mediq" style="width:48px;height:48px;object-fit:contain;border-radius:12px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=mediq.com&sz=128';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1NiIgdmlld0JveD0iMCAwIDU2IDU2Ij48cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxMiIgZmlsbD0iIzBhOGE3ZCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTQlIiBkeT0iLjM1ZW0iIGZvbnQtZmFtaWx5PSJJbnRlcixBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iODAwIiBmb250LXNpemU9IjEzIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5NZWRpcTwvdGV4dD48L3N2Zz4='}">
               <div>
-                <div class="exp-detail-badge">Meest recent</div>
-                <h3>Cognos Developer</h3>
+                <div class="exp-detail-badge" style="background:#e6f7f4;color:#00897b;">Huidige opdracht</div>
+                <h3>BI / Data Analytics Specialist</h3>
               </div>
             </div>
-            <div class="exp-detail-company">Gemeente Rotterdam &nbsp;·&nbsp; maart 2024 – maart 2025</div>
+            <div class="exp-detail-company">Mediq &nbsp;·&nbsp; april 2026 – heden</div>
           </div>
           <ul class="exp-bullets">
-            <li>Ontwikkeling van rapporten en dashboards in Cognos Analytics en Power BI</li>
-            <li>Lid van het DWH GREAT (Oracle OBC) projectteam — bijdragen aan datawarehouse-ontwikkeling en BI-integratie</li>
-            <li>DevOps-beheer via MotioCi (versiebeheer, continue integratie)</li>
-            <li>Trainen van eindgebruikers in effectief gebruik van BI-tools</li>
+            <li>Lopende opdracht als zelfstandig BI / Data Analytics specialist</li>
+            <li>Ontwikkeling van rapportages, dashboards en datamodellen</li>
+            <li>Advies en realisatie van een moderne, datagedreven BI-omgeving</li>
           </ul>
           <div class="tools-row">
-            <span class="tag">Toad</span><span class="tag">Oracle</span><span class="tag">SQL</span><span class="tag">DAX</span><span class="tag">MotioCi</span><span class="tag">MotioPi</span><span class="tag">Agile/Scrum</span>
+            <span class="tag">Power BI</span><span class="tag">Microsoft Fabric</span><span class="tag">Databricks</span><span class="tag">SQL</span><span class="tag">DAX</span>
           </div>
         </div>
-        <h3 style="margin-top:2.5rem;margin-bottom:1rem;font-size:1rem;color:var(--gray);font-weight:600;">Overige opdrachten (2011–2023)</h3>
+        <h3 style="margin-top:2.5rem;margin-bottom:1rem;font-size:1rem;color:var(--gray);font-weight:600;">Overige opdrachten (2011–2025)</h3>
         <div class="all-exp-grid">
+
+          <div class="mini-exp-card">
+            <img src="https://logo.clearbit.com/rotterdam.nl" alt="Gemeente Rotterdam" style="width:36px;height:36px;object-fit:contain;border-radius:8px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=rotterdam.nl&sz=64';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij48cmVjdCB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSI4IiBmaWxsPSIjMDA4MTFGIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGR5PSIuMzVlbSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjYiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdlbWVlbnRlPC90ZXh0Pjwvc3ZnPg=='}">
+            <div class="mini-exp-content"><div class="mini-exp-period">mrt 2024 – mrt 2025</div><div class="mini-exp-role">Cognos Developer</div><div class="mini-exp-co">Gemeente Rotterdam</div></div>
+          </div>
 
           <div class="mini-exp-card">
             <img src="https://logo.clearbit.com/ede.nl" alt="Gemeente Ede" style="width:36px;height:36px;object-fit:contain;border-radius:8px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=ede.nl&sz=64';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij48cmVjdCB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSI4IiBmaWxsPSIjRTg0QzBFIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGR5PSIuMzVlbSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjYiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdlbWVlbnRlPC90ZXh0Pjwvc3ZnPg=='}">
@@ -426,7 +446,7 @@
           </div>
 
           <div class="mini-exp-card">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MiA1MiI+CiAgPHJlY3Qgd2lkdGg9IjUyIiBoZWlnaHQ9IjUyIiByeD0iMTAiIGZpbGw9IiNGRjYyMDAiLz4KICA8IS0tIElORyBsaW9uIC0gc2ltcGxpZmllZCBvcmFuZ2UgbGlvbiBzaWxob3VldHRlIG9uIG9yYW5nZSB3aXRoIHdoaXRlIG91dGxpbmUgLS0+CiAgPCEtLSBCb2R5IC0tPgogIDxlbGxpcHNlIGN4PSIyNiIgY3k9IjMyIiByeD0iMTEiIHJ5PSIxMCIgZmlsbD0iI0ZGOEMwMCIvPgogIDwhLS0gSGVhZCAtLT4KICA8Y2lyY2xlIGN4PSIyNiIgY3k9IjE4IiByPSI5IiBmaWxsPSIjRkY4QzAwIi8+CiAgPCEtLSBNYW5lIHJheXMgLS0+CiAgPGcgc3Ryb2tlPSIjRkY2MjAwIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSI+CiAgICA8bGluZSB4MT0iMjYiIHkxPSI3IiB4Mj0iMjYiIHkyPSI0Ii8+CiAgICA8bGluZSB4MT0iMzIiIHkxPSI5IiB4Mj0iMzQiIHkyPSI2Ii8+CiAgICA8bGluZSB4MT0iMzYiIHkxPSIxNCIgeDI9IjM5IiB5Mj0iMTIiLz4KICAgIDxsaW5lIHgxPSIyMCIgeTE9IjkiIHgyPSIxOCIgeTI9IjYiLz4KICAgIDxsaW5lIHgxPSIxNiIgeTE9IjE0IiB4Mj0iMTMiIHkyPSIxMiIvPgogIDwvZz4KICA8IS0tIE1hbmUgY2lyY2xlIC0tPgogIDxjaXJjbGUgY3g9IjI2IiBjeT0iMTgiIHI9IjExIiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgb3BhY2l0eT0iMC45Ii8+CiAgPCEtLSBGYWNlIGRldGFpbHMgLS0+CiAgPGNpcmNsZSBjeD0iMjIuNSIgY3k9IjE2LjUiIHI9IjEuNSIgZmlsbD0iIzMzMyIvPgogIDxjaXJjbGUgY3g9IjI5LjUiIGN5PSIxNi41IiByPSIxLjUiIGZpbGw9IiMzMzMiLz4KICA8cGF0aCBkPSJNMjIsMjEgUTI2LDI0IDMwLDIxIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMS4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIEZyb250IHBhd3MgLS0+CiAgPGVsbGlwc2UgY3g9IjE5IiBjeT0iNDIiIHJ4PSI0IiByeT0iMyIgZmlsbD0iI0ZGOEMwMCIvPgogIDxlbGxpcHNlIGN4PSIzMyIgY3k9IjQyIiByeD0iNCIgcnk9IjMiIGZpbGw9IiNGRjhDMDAiLz4KICA8IS0tIFRhaWwgLS0+CiAgPHBhdGggZD0iTTM3LDM4IFE0NCwzMCA0MCwyMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkY4QzAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjQwIiBjeT0iMjEiIHI9IjMiIGZpbGw9IiNGRjhDMDAiLz4KICA8IS0tIElORyB0ZXh0IC0tPgogIDx0ZXh0IHg9IjI2IiB5PSI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjciIGZpbGw9IndoaXRlIj5JTkc8L3RleHQ+Cjwvc3ZnPg==" alt="ING" style="width:52px;height:52px;object-fit:contain;border-radius:10px;flex-shrink:0">
+            <img src="https://logo.clearbit.com/ing.com" alt="ING" style="width:36px;height:36px;object-fit:contain;border-radius:10px;background:#fff;padding:3px;flex-shrink:0" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=ing.com&sz=128';this.onerror=function(){this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1NiIgdmlld0JveD0iMCAwIDU2IDU2Ij48cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxMiIgZmlsbD0iI0ZGNjIwMCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTQlIiBkeT0iLjM1ZW0iIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjayxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE2IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5JTkc8L3RleHQ+PC9zdmc+'}">
             <div class="mini-exp-content"><div class="mini-exp-period">feb 2018 – mei 2018</div><div class="mini-exp-role">Data Analist</div><div class="mini-exp-co">ING</div></div>
           </div>
 
@@ -510,10 +530,8 @@
     </div>
   </div>
 </section>
-<footer>
-  <span>&copy; 2025 Van Otten Analytics B.V. &middot; Rijssen, Nederland</span>
-  <span><a href="/cdn-cgi/l/email-protection#b4ded5daf4c2d5dadbc0c0d1da9ad7dbd9"><span class="__cf_email__" data-cfemail="1b717a755b6d7a75746f6f7e7535787476">[email&#160;protected]</span></a> &nbsp;&middot;&nbsp; <a href="https://linkedin.com/in/janvanotten" target="_blank">LinkedIn</a></span>
-</footer>
+<div style="position:fixed;left:14px;bottom:12px;z-index:3;font-size:.72rem;font-weight:500;color:var(--gray);background:rgba(255,255,255,.72);backdrop-filter:blur(4px);padding:.25rem .7rem;border-radius:100px;pointer-events:none;box-shadow:0 1px 4px rgba(0,0,0,.06);">&copy; <span class="copy-year">2026</span> Van Otten Analytics B.V.</div>
+<script>document.querySelectorAll('.copy-year').forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 
 <style>
   @keyframes flyInBottom{from{opacity:0;transform:translateY(60px);}to{opacity:1;transform:translateY(0);}}

@@ -277,6 +277,15 @@
   }
 
 </style>
+<!-- modern-banner-bg -->
+<style>
+  .page-banner{position:relative;padding:7.5rem 2rem 3.5rem;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#f0f7ff 0%,#e8f5f3 100%);}
+  .page-banner .section-label{color:var(--teal);}
+  .page-banner h1{font-size:2.6rem;font-weight:800;color:var(--dark);margin:.25rem 0 .75rem;line-height:1.15;}
+  .page-banner p{font-size:1.05rem;color:var(--gray);max-width:600px;line-height:1.7;}
+  body::after{content:"";position:fixed;left:0;right:0;bottom:0;height:min(190px,24vh);background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDE0NDAgMjQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCB4PSIxMi42IiB5PSIxMzAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTEwIiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iNzIuNiIgeT0iMTAwLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE0MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEzMi42IiB5PSIxNDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iOTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxOTIuNiIgeT0iNzUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTY1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMjUyLjYiIHk9IjEyMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMjAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIzMTIuNiIgeT0iNTUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTg1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMzcyLjYiIHk9IjE0MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMDAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI0MzIuNiIgeT0iOTAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTUwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNDkyLjYiIHk9IjExMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMzAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI1NTIuNiIgeT0iNDAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMjAwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNjEyLjYiIHk9IjEyNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI2NzIuNiIgeT0iODAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTYwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNzMyLjYiIHk9IjE1MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSI5MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9Ijc5Mi42IiB5PSI2NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI4NTIuNiIgeT0iMTE1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEyNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjkxMi42IiB5PSI0NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxOTUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI5NzIuNiIgeT0iMTM1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEwNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEwMzIuNiIgeT0iODUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTU1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMTA5Mi42IiB5PSIxMDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTM1IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTE1Mi42IiB5PSIzNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIyMDUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSIxMjEyLjYiIHk9IjEyMi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTgiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxMjcyLjYiIHk9IjcyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE2OCIgcng9IjMiIGZpbGw9IiMwMGE4OTYiIGZpbGwtb3BhY2l0eT0iMC4xMiIvPjxyZWN0IHg9IjEzMzIuNiIgeT0iMTQyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9Ijk4IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTM5Mi42IiB5PSI2Mi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzgiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48bGluZSB4MT0iMCIgeTE9IjkwIiB4Mj0iMTQ0MCIgeTI9IjkwIiBzdHJva2U9IiMwMGE4OTYiIHN0cm9rZS1vcGFjaXR5PSIwLjYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTEgNyIvPjwvc3ZnPg==") center bottom / 100% 100% no-repeat;pointer-events:none;z-index:0;}
+  @media(max-width:600px){.page-banner{padding:6rem 1rem 2.5rem;}.page-banner h1{font-size:1.7rem;}body::after{height:110px;}}
+</style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y933B6Y0VJ"></script>
 <script>
@@ -338,10 +347,8 @@
   </div>
 </section>
 
-<footer>
-  <span>&copy; 2025 Van Otten Analytics B.V. &middot; Rijssen, Nederland</span>
-  <span><a href="/cdn-cgi/l/email-protection#8be1eae5cbfdeae5e4ffffeee5a5e8e4e6"><span class="__cf_email__" data-cfemail="a1cbc0cfe1d7c0cfced5d5c4cf8fc2cecc">[email&#160;protected]</span></a> &nbsp;&middot;&nbsp; <a href="https://linkedin.com/in/janvanotten" target="_blank">LinkedIn</a></span>
-</footer>
+<div style="position:fixed;left:14px;bottom:12px;z-index:3;font-size:.72rem;font-weight:500;color:var(--gray);background:rgba(255,255,255,.72);backdrop-filter:blur(4px);padding:.25rem .7rem;border-radius:100px;pointer-events:none;box-shadow:0 1px 4px rgba(0,0,0,.06);">&copy; <span class="copy-year">2026</span> Van Otten Analytics B.V.</div>
+<script>document.querySelectorAll('.copy-year').forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 
 <style>
   @keyframes flyInBottom{from{opacity:0;transform:translateY(60px);}to{opacity:1;transform:translateY(0);}}

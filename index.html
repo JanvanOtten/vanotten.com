@@ -277,6 +277,15 @@
   }
 
 </style>
+<!-- modern-banner-bg -->
+<style>
+  .page-banner{position:relative;padding:7.5rem 2rem 3.5rem;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#f0f7ff 0%,#e8f5f3 100%);}
+  .page-banner .section-label{color:var(--teal);}
+  .page-banner h1{font-size:2.6rem;font-weight:800;color:var(--dark);margin:.25rem 0 .75rem;line-height:1.15;}
+  .page-banner p{font-size:1.05rem;color:var(--gray);max-width:600px;line-height:1.7;}
+  body::after{content:"";position:fixed;left:0;right:0;bottom:0;height:min(190px,24vh);background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDE0NDAgMjQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCB4PSIxMi42IiB5PSIxMzAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTEwIiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iNzIuNiIgeT0iMTAwLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE0MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEzMi42IiB5PSIxNDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iOTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxOTIuNiIgeT0iNzUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTY1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMjUyLjYiIHk9IjEyMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMjAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIzMTIuNiIgeT0iNTUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTg1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMzcyLjYiIHk9IjE0MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMDAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI0MzIuNiIgeT0iOTAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTUwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNDkyLjYiIHk9IjExMC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMzAiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI1NTIuNiIgeT0iNDAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMjAwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNjEyLjYiIHk9IjEyNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTUiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSI2NzIuNiIgeT0iODAuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTYwIiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iNzMyLjYiIHk9IjE1MC4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSI5MCIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9Ijc5Mi42IiB5PSI2NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI4NTIuNiIgeT0iMTE1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEyNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjkxMi42IiB5PSI0NS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxOTUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSI5NzIuNiIgeT0iMTM1LjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjEwNSIgcng9IjMiIGZpbGw9IiMxYTczYzgiIGZpbGwtb3BhY2l0eT0iMC4wOSIvPjxyZWN0IHg9IjEwMzIuNiIgeT0iODUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTU1IiByeD0iMyIgZmlsbD0iIzAwYTg5NiIgZmlsbC1vcGFjaXR5PSIwLjEyIi8+PHJlY3QgeD0iMTA5Mi42IiB5PSIxMDUuMCIgd2lkdGg9IjM0LjgiIGhlaWdodD0iMTM1IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTE1Mi42IiB5PSIzNS4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIyMDUiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48cmVjdCB4PSIxMjEyLjYiIHk9IjEyMi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxMTgiIHJ4PSIzIiBmaWxsPSIjMWE3M2M4IiBmaWxsLW9wYWNpdHk9IjAuMDkiLz48cmVjdCB4PSIxMjcyLjYiIHk9IjcyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9IjE2OCIgcng9IjMiIGZpbGw9IiMwMGE4OTYiIGZpbGwtb3BhY2l0eT0iMC4xMiIvPjxyZWN0IHg9IjEzMzIuNiIgeT0iMTQyLjAiIHdpZHRoPSIzNC44IiBoZWlnaHQ9Ijk4IiByeD0iMyIgZmlsbD0iIzFhNzNjOCIgZmlsbC1vcGFjaXR5PSIwLjA5Ii8+PHJlY3QgeD0iMTM5Mi42IiB5PSI2Mi4wIiB3aWR0aD0iMzQuOCIgaGVpZ2h0PSIxNzgiIHJ4PSIzIiBmaWxsPSIjMDBhODk2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz48bGluZSB4MT0iMCIgeTE9IjkwIiB4Mj0iMTQ0MCIgeTI9IjkwIiBzdHJva2U9IiMwMGE4OTYiIHN0cm9rZS1vcGFjaXR5PSIwLjYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTEgNyIvPjwvc3ZnPg==") center bottom / 100% 100% no-repeat;pointer-events:none;z-index:0;}
+  @media(max-width:600px){.page-banner{padding:6rem 1rem 2.5rem;}.page-banner h1{font-size:1.7rem;}body::after{height:110px;}}
+</style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y933B6Y0VJ"></script>
 <script>
@@ -304,9 +313,10 @@
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-content">
-      <div class="hero-badge"><span></span> Beschikbaar voor nieuwe opdrachten</div>
-      <h1>Jan van Otten<br><em>BI & Data Analytics</em> Specialist</h1>
-      <p class="hero-sub">Meer dan 30 jaar IT-ervaring, waarvan 25+ jaar als Business Intelligence Specialist. Van IBM Cognos Analytics en Power BI tot Microsoft Fabric en Databricks — ik transformeer ruwe data in waardevolle inzichten.</p>
+      <h1>Jan van Otten</h1>
+      <p class="hero-role" style="font-size:1.5rem;font-weight:700;color:var(--blue);margin:.35rem 0 .85rem;line-height:1.2;">BI &amp; Data Analytics Specialist</p>
+      <p class="hero-tagline" style="font-size:1.2rem;font-weight:600;color:var(--dark);margin-bottom:1.1rem;">… transformeert ruwe data in waardevolle inzichten met behulp van AI &amp; Analytics.</p>
+      <p class="hero-sub">Meer dan 30 jaar IT-ervaring, waarvan 25+ jaar als Business Intelligence Specialist — van IBM Cognos en Power BI tot Microsoft Fabric en Databricks.</p>
       <div class="hero-actions">
         <a class="btn-primary" href="ervaring.html">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
@@ -360,16 +370,85 @@
     </div>
   </div>
 </section>
-<section style="background:white;padding:2.5rem 2rem;">
-<div class="container" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
-  <a href="expertise.html" style="text-decoration:none;"><div class="expertise-card" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">📊</div><h3>Expertise</h3><p>BI, DWH, Cloud, Migratie, Training</p></div></a>
-  <a href="opdrachtgevers.html" style="text-decoration:none;"><div class="expertise-card" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">🏢</div><h3>Opdrachtgevers</h3><p>23+ organisaties — overheid, finance, industrie</p></div></a>
-  <a href="vrijwilligerswerk.html" style="text-decoration:none;"><div class="expertise-card" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">🤝</div><h3>Vrijwilligerswerk</h3><p>25+ jaar actief in sport en vakgemeenschap</p></div></a>
+<section style="background:white;padding:5rem 2rem;">
+<div class="container">
+  <p class="section-label reveal">Overzicht</p>
+  <h2 class="section-title reveal">Verken het portfolio</h2>
+  <p class="section-desc reveal">Alles op één plek — van expertise en skills tot opdrachtgevers, ervaring en contact.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.25rem;margin-top:3rem;">
+    <a href="expertise.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">📊</div><h3>Expertise</h3><p>BI, DWH, Cloud, Migratie &amp; Training</p></div></a>
+    <a href="skills.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">🧰</div><h3>Skills &amp; Vaardigheden</h3><p>Tools, talen en platforms</p></div></a>
+    <a href="opdrachtgevers.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">🏢</div><h3>Opdrachtgevers</h3><p>23+ organisaties — overheid, finance &amp; zorg</p></div></a>
+    <a href="ervaring.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">📈</div><h3>Ervaring</h3><p>30+ jaar, van Cognos tot Fabric &amp; Databricks</p></div></a>
+    <a href="vrijwilligerswerk.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">🤝</div><h3>Vrijwilligerswerk</h3><p>25+ jaar actief in sport en vakgemeenschap</p></div></a>
+    <a href="over-mij.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">👤</div><h3>Over mij</h3><p>Wie ik ben en hoe ik werk</p></div></a>
+    <a href="contact.html" style="text-decoration:none;"><div class="expertise-card reveal" style="text-align:center;"><div class="expertise-icon" style="margin:0 auto 1rem;">✉️</div><h3>Contact</h3><p>Neem contact op voor een opdracht</p></div></a>
+  </div>
 </div></section>
-<footer>
-  <span>&copy; 2025 Van Otten Analytics B.V. &middot; Rijssen, Nederland</span>
-  <span><a href="/cdn-cgi/l/email-protection#a7cdc6c9e7d1c6c9c8d3d3c2c989c4c8ca"><span class="__cf_email__" data-cfemail="a1cbc0cfe1d7c0cfced5d5c4cf8fc2cecc">[email&#160;protected]</span></a> &nbsp;&middot;&nbsp; <a href="https://linkedin.com/in/janvanotten" target="_blank">LinkedIn</a></span>
-</footer>
+
+<style>
+  #stories{background:linear-gradient(135deg,#f0f7ff 0%,#e8f5f3 100%);}
+  .stories-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+  .story-card{background:#fff;border:1px solid var(--border);border-radius:20px;padding:2rem;position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s,border-color .3s;display:flex;flex-direction:column;}
+  .story-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue),var(--teal));transform:scaleX(0);transform-origin:left;transition:transform .35s;}
+  .story-card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(26,115,200,.14);border-color:var(--blue);}
+  .story-card:hover::before{transform:scaleX(1);}
+  .story-num{font-size:.8rem;font-weight:800;color:var(--teal);letter-spacing:.12em;margin-bottom:.75rem;}
+  .story-card h3{font-size:1.15rem;font-weight:800;color:var(--dark);margin-bottom:.6rem;line-height:1.3;}
+  .story-card p{font-size:.9rem;color:var(--gray);line-height:1.7;flex:1;}
+  .story-link{margin-top:1.25rem;display:inline-flex;align-items:center;gap:6px;font-size:.85rem;font-weight:700;color:var(--blue);text-decoration:none;transition:gap .2s;}
+  .story-link:hover{gap:11px;}
+  .story-badge{display:inline-flex;align-items:center;gap:6px;background:#e6f7f4;color:#00897b;font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:.25rem .65rem;border-radius:100px;margin-bottom:.75rem;width:fit-content;}
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);}
+  .reveal.in{opacity:1;transform:none;}
+  @media(max-width:900px){.stories-grid{grid-template-columns:1fr;}}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+</style>
+<section id="stories">
+  <div class="container">
+    <p class="section-label reveal">Verhalen uit de praktijk</p>
+    <h2 class="section-title reveal">Van ruwe data naar waardevolle inzichten</h2>
+    <p class="section-desc reveal">Meer dan 30 jaar IT-ervaring, waarvan 25+ jaar als Business Intelligence Specialist — van IBM Cognos en Power BI tot Microsoft Fabric en Databricks.</p>
+    <div class="stories-grid">
+      <article class="story-card reveal" data-delay="0">
+        <div class="story-num">01</div>
+        <h3>Van groen beeldscherm tot de cloud</h3>
+        <p>Ruim 30 jaar geleden begon ik in de IT, waarvan 25+ jaar als BI-specialist. Van de eerste Cognos-rapporten tot Power BI, Microsoft Fabric en Databricks vandaag — de techniek veranderde radicaal, de missie nooit: ruwe data omzetten in inzicht waar mensen écht op kunnen sturen.</p>
+        <a class="story-link" href="over-mij.html">Lees mijn verhaal →</a>
+      </article>
+      <article class="story-card reveal" data-delay="90">
+        <div class="story-num">02</div>
+        <h3>Kwartiermaker voor een datagedreven overheid</h3>
+        <p>Bij gemeenten als Ede en Rotterdam bouwde ik BI-teams en datawarehouses van de grond af op — onder meer in het DWH GREAT-traject. Niet alleen rapporten en dashboards, maar collega's meenemen zodat de organisatie zélf datagedreven verder kan.</p>
+        <a class="story-link" href="ervaring.html">Bekijk de opdrachten →</a>
+      </article>
+      <article class="story-card reveal" data-delay="180">
+        <div class="story-badge"><span style="width:6px;height:6px;border-radius:50%;background:#00a896;display:inline-block;"></span> Nu actief</div>
+        <h3>Data in de zorg, bij Mediq</h3>
+        <p>Sinds april 2026 ben ik als BI &amp; Data Analytics specialist actief bij Mediq, een internationale organisatie in medische zorg. Een mooie nieuwe omgeving waarin betrouwbare data direct bijdraagt aan betere zorg.</p>
+        <a class="story-link" href="opdrachtgevers.html">Naar opdrachtgevers →</a>
+      </article>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in');});return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        en.target.style.transitionDelay=(en.target.dataset.delay||0)+'ms';
+        en.target.classList.add('in');
+        io.unobserve(en.target);
+      }
+    });
+  },{threshold:0.12,rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(el){io.observe(el);});
+})();
+</script>
+<div style="position:fixed;left:14px;bottom:12px;z-index:3;font-size:.72rem;font-weight:500;color:var(--gray);background:rgba(255,255,255,.72);backdrop-filter:blur(4px);padding:.25rem .7rem;border-radius:100px;pointer-events:none;box-shadow:0 1px 4px rgba(0,0,0,.06);">&copy; <span class="copy-year">2026</span> Van Otten Analytics B.V.</div>
+<script>document.querySelectorAll('.copy-year').forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 
 <style>
   @keyframes flyInBottom{from{opacity:0;transform:translateY(60px);}to{opacity:1;transform:translateY(0);}}
